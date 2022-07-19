@@ -1,0 +1,68 @@
+body, html{
+    height: 100%;
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+}
+
+.textparallax{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: antiquewhite;
+}
+
+.textimage{
+    color: black;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+    font-weight: bolder;
+}
+
+.parallax, .parallax2, .parallax3{
+    position: relative; 
+    opacity: 0.5;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("../images/image1.jpg");
+    /* Set a specific height */
+    min-height: 100%;
+}
+
+.parallax2{
+    /* The image used */
+    background-image: url("../images/image2.jpg");
+    /* Set a specific height */
+    min-height: 400px;
+}
+
+.parallax3{
+    /* The image used */
+    background-image: url("../images/image3.jpg");
+    /* Set a specific height */
+    min-height: 400px;
+}
+     
+.text{
+    height: auto;
+    background-color: beige;
+    font-size: 20px;
+    display: inline-block;
+    text-align: center;
+    padding:50px 80px
+  }
+
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+      background-attachment: scroll;
+    }
+  }
