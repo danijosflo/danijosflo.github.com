@@ -73,6 +73,10 @@ html{
 	display: table;	
 	
 }
+
+.article.proyecto{
+	background-color: aqua;
+}
 .proyecto{
 	display: table-cell;
 	padding: 1em;

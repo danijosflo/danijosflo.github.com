@@ -157,7 +157,7 @@ img{
 
 
 @media (min-width: 761px){
-    .polaroid{
+    .contenedor1{
         display: inline-block;
         margin-left: 6%;
     }

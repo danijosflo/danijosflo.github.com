@@ -23,7 +23,7 @@ links.forEach(function(link){
         content.classList.add("animate__animated");
 
         setTimeout(function(){
-            location.href = "../index.html";
+            location.href = "../page/paginas.html";
         },1000);
         //setInterval se ejecurta cada tiempo que se le indique
         

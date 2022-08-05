@@ -66,6 +66,10 @@ td:nth-of-type(1){
     color:#7E7CE9;
 }
 
+a{
+    text-decoration: none;
+}
+
 .actions{
     position: absolute;
     top: 1em;
