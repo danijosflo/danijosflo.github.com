@@ -15,6 +15,9 @@ body {
     font-size: 14px;
     line-height: 20px;
     color: #333;
+    background: #DE8DC5;  
+    background: linear-gradient(to right, #9AB6DD, #B3A8D4, #CA9ACC, #DE8DC5, #F082BE);
+    background: -webkit-linear-gradient (to right, #9AB6DD, #B3A8D4, #CA9ACC, #DE8DC5, #F082BE);
 }
 
 img {
@@ -33,9 +36,6 @@ a{
     flex-direction: row;
     align-content: stretch;
     padding-top: 16px;
-    background: #DE8DC5;  
-    background: linear-gradient(to right, #9AB6DD, #B3A8D4, #CA9ACC, #DE8DC5, #F082BE);
-    background: -webkit-linear-gradient (to right, #9AB6DD, #B3A8D4, #CA9ACC, #DE8DC5, #F082BE);
   }
 
   .brand{
@@ -60,7 +60,7 @@ a{
 .media_button button.main_media_button {
     width: 100%;
     height: 100%;
-    background-color: transparent;;
+    background-color: transparent;
     outline: 0;
     border: none;
     cursor: pointer;
@@ -188,24 +188,21 @@ a{
     justify-content: flex-start;
     align-items: stretch;
     align-content: stretch;
-    background: #DE8DC5;  
-    background: linear-gradient(to right, #9AB6DD, #B3A8D4, #CA9ACC, #DE8DC5, #F082BE);
-    background: -webkit-linear-gradient (to right, #9AB6DD, #B3A8D4, #CA9ACC, #DE8DC5, #F082BE);
+    
   }
   
 .banner {
-    display: block;
-    background-color: #F082BE;
-    width: 60%;
-    height: 605px;
-    position: relative;
-    bottom: -110px;
-    margin-bottom: 100px;
-    left: 20%;
-    border-radius: 3%
-    ;box-shadow: 7px 7px 5px -1px rgba(0,0,0,0.2);
-    -webkit-box-shadow: 7px 7px 5px -1px rgba(0,0,0,0.2);
-    -moz-box-shadow: 7px 7px 5px -1px rgba(0,0,0,0.2); 
+  display: block;
+  background-color: #F082BE;
+  width: 80%;
+  height: 605px;
+  position: relative;
+  bottom: -110px;
+  margin-bottom: 100px;
+  border-radius: 3%;
+  box-shadow: 7px 7px 5px -1px rgba(0,0,0,0.2);
+  -webkit-box-shadow: 7px 7px 5px -1px rgba(0,0,0,0.2);
+  -moz-box-shadow: 7px 7px 5px -1px rgba(0,0,0,0.2); 
   }
 
 .imgBanner{
@@ -236,9 +233,7 @@ a{
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    background: #DE8DC5;  
-    background: linear-gradient(to right, #9AB6DD, #B3A8D4, #CA9ACC, #DE8DC5, #F082BE);
-    background: -webkit-linear-gradient (to right, #9AB6DD, #B3A8D4, #CA9ACC, #DE8DC5, #F082BE);
+    
   }
   
   .titlecontenedor{
@@ -323,9 +318,7 @@ a{
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    background: #DE8DC5;  
-    background: linear-gradient(to right, #9AB6DD, #B3A8D4, #CA9ACC, #DE8DC5, #F082BE);
-    background: -webkit-linear-gradient (to right, #9AB6DD, #B3A8D4, #CA9ACC, #DE8DC5, #F082BE);
+
   }
   
   .titlecontenedor1{
@@ -367,9 +360,6 @@ a{
 
   /*Contenedor Post*/
   .container{
-    background: #DE8DC5;  
-    background: linear-gradient(to right, #9AB6DD, #B3A8D4, #CA9ACC, #DE8DC5, #F082BE);
-    background: -webkit-linear-gradient (to right, #9AB6DD, #B3A8D4, #CA9ACC, #DE8DC5, #F082BE);
     height: 100vh;
     display: flex;
     align-items: center;
@@ -458,9 +448,6 @@ a{
     height: 750px;/*tambien puede ser absolute si se quiere*/
     top: 0px;
     left: 0px;
-    background: #DE8DC5;  
-    background: linear-gradient(to right, #9AB6DD, #B3A8D4, #CA9ACC, #DE8DC5, #F082BE);
-    background: -webkit-linear-gradient (to right, #9AB6DD, #B3A8D4, #CA9ACC, #DE8DC5, #F082BE);
     }
 
    .portafolio1{
@@ -565,9 +552,6 @@ a{
     position: relative;
     height: 200px;
     width: 100%;
-    background: #DE8DC5;  
-    background: linear-gradient(to right, #9AB6DD, #B3A8D4, #CA9ACC, #DE8DC5, #F082BE);
-    background: -webkit-linear-gradient (to right, #9AB6DD, #B3A8D4, #CA9ACC, #DE8DC5, #F082BE);
    }
 
    .previous {
