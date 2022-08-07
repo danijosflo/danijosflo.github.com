@@ -264,7 +264,7 @@ a{
 
   .imgcontent, .imgcontent1{
     position: relative;
-    width: 400px;
+    width: 250px;
     margin: 50px;
   }
 
@@ -776,28 +776,6 @@ a{
     }
 }
 
-   @media all and (max-width: 790px){
-    .portafolio{
-        height: 650px;
-    }
-
-    .portafolio1{
-        width: 300px; 
-       }
-    
-       .portafolio2{
-        width: 300px;
-       top: 300px;
-       
-    }
-    
-       .portafolio3{
-        width: 300px;
-       top: 450px;
-       
-       }
-
-   }
    @media all and (max-width: 790px) { 
     .header{
         display: flex;
@@ -843,15 +821,32 @@ a{
         width: 100%;
         height: 40px;
         
-    }
-
-    
+    }    
 
     .media_button{
         display: block;
         padding-top: 30px;
-    }  
+    }
+    
+    .portafolio{
+      height: 650px;
+  }
 
+  .portafolio1{
+      width: 300px; 
+     }
+  
+     .portafolio2{
+      width: 300px;
+     top: 300px;
+     
+  }
+  
+     .portafolio3{
+      width: 300px;
+     top: 450px;
+     
+     }
   
   }
 
@@ -903,7 +898,9 @@ a{
       
     }
 
-    
+    .imgcontent, .imgcontent1{
+      width: 400px;
+    }
   
   }
 
