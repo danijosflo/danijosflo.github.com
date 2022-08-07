@@ -888,13 +888,13 @@ a{
 
     .contenedores  {
       flex-direction: row;
-      flex-wrap: wrap;
+      flex-wrap: nowrap;
       
     }
   
     .contenedores1{
       flex-direction: row-reverse;      
-      flex-wrap: wrap;
+      flex-wrap: nowrap;
       
     }
 
