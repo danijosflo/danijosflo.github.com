@@ -120,10 +120,6 @@ img{
     filter: none;
 }
 
-.textPolaroid{
-    text-align: center;
-    padding: 10px 20px;
-}
 
 @media (max-width: 600px){
     .topnav a:not(:first-child) {display: none;}
