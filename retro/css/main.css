@@ -1,0 +1,389 @@
+/*Fuentes:  
+    font-family: 'Archivo', sans-serif;
+    font-family: 'DM Serif Display', serif;*/
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Archivo', sans-serif;
+    line-height: 1.5;
+    margin: 0px;
+    text-rendering: optimizespeed;
+}
+
+img {
+    cursor: pointer;
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+a{
+    text-decoration: none;  
+    line-height: 1.5;    
+    color: #363539;
+    font-weight: 600;
+}
+
+/*Barra de navegacion*/
+
+.topnav {
+    overflow: hidden;
+    position: fixed;
+    z-index: 1;
+    background-color: white;
+    width: 100%;
+    outline: #363539 solid 2px;
+  }
+  
+  .topnav a {
+    float: left;
+    display: inline;
+    color: #363539;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .menu{
+    margin-top: 10px;
+  }
+  
+  .topnav a:hover {
+    text-decoration: underline;
+  }
+
+  .topnav a:focus {
+    border: #363539 dashed 2px;
+    transition: outline 0s ease 0s;
+    padding: auto;
+  }
+  
+  .topnav a.active {
+    color: #363539;
+    font-family: 'DM Serif Display', serif;
+    font-size: 30px;
+  }
+  
+  .topnav .icon {
+    display: none;
+  }
+  
+
+  /*Banner*/
+
+  .container-banner {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 40px;
+  }
+  
+  .banner-box {
+    background-color: #E58985;
+    padding: 10px;
+    flex: 50%;
+    outline: #363539 solid 2px;
+    text-align: left;
+  }
+
+  .banner-title{
+    font-family: 'DM Serif Display', serif;
+    font-size: 55px;
+    padding: 25px 25px 0 25px;
+    
+  }
+
+  .banner-parrafo{
+    font-size: 17px;
+    padding: 25px;
+  }
+
+  .main-banner-buttom{
+    display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: stretch;
+  }
+
+  .banner-buttom{
+      color: #000 !important;
+      font-size: 17px;
+      padding: 16px 25px;
+      outline: #363539 solid 2px;
+      background: white;
+      margin: 15px;
+    }
+
+    .banner-buttom:hover, .banner-buttom-one:hover {
+      color: white !important;
+      background: #000;
+    }
+
+
+    .banner-buttom-one{
+      color: #000 !important;
+      font-size: 17px;
+      padding: 16px 25px;
+      outline: #363539 solid 2px;
+      margin: 15px;
+    }
+    
+  
+  .banner-img {
+    flex: 50%;
+    outline: #363539 solid 2px;
+  }
+  
+  
+
+/*informacion*/
+.container-inf{
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .cards_item {
+    display: flex;
+    padding: 1rem;    
+    position: relative;
+  }
+  
+  .card {
+    background-color: white;
+    outline: #363539 solid 2px;
+    display: inline-block;    
+    flex-direction: column;
+    overflow: hidden;
+    margin: 18px;
+  }
+
+  /*Categoria*/
+  .categoria{
+    position: absolute;
+    outline: #363539 solid 2px;
+    top: 30px;
+    right: 30px;
+    transform: rotate(0deg);
+    transition: background 0.3s ease 0s;
+    padding: 5px 10px;
+    font-weight: 600;
+    background: #FBD351;
+  
+  }
+
+  .cards_item:hover{
+    transform: translate(-4px, -4px);
+    transition: .25s ease-out;
+  }
+  
+  .card_content {
+    padding: 1rem;
+    background-color: #E58985;
+    outline: #363539 solid 2px;
+    
+  }
+  
+  button{
+    background: transparent;
+    border: none;
+    text-decoration: underline;
+    font-family: 'DM Serif Display', serif;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .card_title {
+    color: #363539;
+    font-size: 1.1rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin: 0px;
+    font-family: 'DM Serif Display', serif;
+  }
+
+  /*Modal*/
+  .modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4);
+  }
+  
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    outline: #363539 solid 2px;
+    width: 80%;
+  }
+  
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #363539;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  /*Contacto*/
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #363539;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+
+  input[type=email]{
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #363539;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: white;
+    color: #363539;
+    padding: 12px 20px;
+    border: 2px solid #363539;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #000;
+    color: white;
+  }
+
+  input, button, textarea, select {
+    font: inherit;
+  }
+
+  input:focus, label:focus, textarea:focus, select:focus, option:focus {
+    outline-offset: 2px;
+  }
+  
+  .container-contact {
+    padding: 90px;    
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #E58985;
+  }
+
+  .contact-title{
+    font-family: "DM Serif Display", serif;
+    font-weight: bold;
+    font-size: 3.25rem;
+    line-height: 1.1;
+  }
+  
+  .column {
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  /*Footer*/
+  .footer {
+    padding: 40px 20px;
+    color: white;
+    background: #363539;
+ }
+
+ .text-footer{
+  display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+  padding: 10px;
+ }
+  
+
+  @media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
+
+  @media (min-width: 40rem) {
+    .cards_item {
+      width: 50%;
+    }
+  }
+  
+  @media (min-width: 56rem) {
+    .cards_item {
+      width: 33.3333%;
+    }
+  }
+
+  @media (max-width: 800px) {
+    .container-banner {
+      flex-direction: column;
+    }
+  }
+
+  /*Contacto*/
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
